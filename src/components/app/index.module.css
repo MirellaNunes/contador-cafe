@@ -1,0 +1,45 @@
+.contador {
+  border-radius: 25px;
+  margin-top: 10rem;
+  border: solid #ad0000 1px;
+  padding: 20px;
+  box-shadow: #660000 3px 2px 12px;
+  background-color: rgba(78, 21, 7, 0.575);
+}
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  color: #c89bcf;
+}
+.numero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 89px;
+  padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #c89bcf;
+}
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botao button {
+  background-color: #c89bcf;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+  font-size: 17px;
+  margin: 5px;
+  font-family: "Times New Roman", Times, serif;
+  transition: all 0.2s;
+}
+.botao button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
